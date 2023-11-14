@@ -5,7 +5,7 @@ import PresentationItemSkills2 from "./PresentationItemSkills2.vue";
 // const locomotiveScroll = new LocomotiveScroll();
 
 const cvURL =
-  "https://lebrasdejesus.github.io/Portfolio2lbdj/CV-F-Chambinaud-Inte-Dev_compressed.pdf";
+  "https://14h02m10s.github.io/Portfolio2-14h/CV_3W_PF_compressed.pdf";
 
 // setLocomotiveScroll() {
 //       new LocomotiveScroll({
