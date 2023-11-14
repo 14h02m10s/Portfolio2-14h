@@ -43,38 +43,23 @@ export default {
   
   <style scoped>
 .item {
-  /* display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 0; */
   display: flex;
   flex-direction: column;
   margin: 0;
-  /* margin-top: 1rem; */
   padding: 1rem 0;
   width: 100%;
 }
 .img {
   width: 100%;
-  /* height: fit-content; */
-  /* display: block; */
   margin: 0;
   padding: 0;
 }
-/* .details {
-  flex: 1;
-  margin-top: 0.8rem;
-} */
 .section-texte {
   display: flex;
-  /* flex: 1; */
   flex-direction: column;
   justify-content: start;
-  /* align-items: start; */
-  /* justify-content: center; */
   align-items: center;
   background-color: #fff;
-  /* margin: 0.5rem 0 2rem 0; */
-  /* margin: 0 0 2rem 0; */
   padding: 2rem;
   border-top: 5px solid #e05900;
   border-bottom: 5px solid #e05900;
@@ -82,7 +67,6 @@ export default {
   height: 15rem;
   overflow: hidden;
   position: relative;
-  /* transition: height 0.5s ease-out;  */
 }
 .section-texte.expanded {
   width: auto;
@@ -110,8 +94,6 @@ export default {
   height: 3.2rem;
   display: flex;
   justify-content: center;
-  /* align-items: flex-start; */
-  /* background-color: #d35400; */
   border-radius: 10rem;
   background-color: #e05900;
   box-shadow: #838e93 0rem 0rem 0.7rem;
@@ -125,7 +107,6 @@ export default {
 .btn-open-text.expanded {
   transform: rotate(180deg);
 }
-
 h4 {
   padding: 0 0 0.8rem 0;
   font-weight: 700;
@@ -133,14 +114,8 @@ h4 {
   font-family: "Montserrat", sans-serif;
   width: 100%;
 }
-
 @media (min-width: 768px) {
   .item {
-    /* padding: 0.4rem 0 1rem calc(var(--section-gap) / 2);  */
-    /* grid-template-columns: repeat(2, 1fr); */
-    /* grid-gap: 1.2rem; */
-    /* border: 1px rgba(208, 208, 208, 0.3) solid; */
-    /* padding: 1.5rem 6rem; */
     padding: 1.5rem 0rem;
     width: 43rem;
   }
@@ -148,20 +123,9 @@ h4 {
     height: fit-content;
   }
 }
-@media (min-width: 1135px) {
-  .item {
-    /* grid-gap: 0.2rem; */
-    /* border: 1px rgba(208, 208, 208, 0.8) solid; */
-    /* margin-top: 1rem; */
-    /* padding: 1.5rem 0;
-    margin: 0 1rem; */
-  }
-}
+
 @media (min-width: 1440px) {
   .item {
-    /* padding: 1.5rem 0;
-    margin: 0 1rem; */
-    /* padding: 1rem; */
     margin: 0;
   }
 }

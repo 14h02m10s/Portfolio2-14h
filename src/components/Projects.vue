@@ -1,5 +1,4 @@
 <script setup>
-// ca marche mais je n'ai pas encore mis la transition sur les blocs textes quand ils s'agrandissent
 import ProjectsItem from "./ProjectsItem.vue";
 import ImgPortfolio1 from "./icons/ImgPortfolio1.vue";
 import ImgLakson from "./icons/ImgLakson.vue";
@@ -13,7 +12,7 @@ import ImgSuzuki from "./icons/ImgSuzuki.vue";
     <div class="titre">
       <h2 class="title-linear-background">RÉALISATIONS</h2>
     </div>
-    <div class="grid-projects flex-project">
+    <div class="flex-project">
       <ProjectsItem data-aos="fade-up" data-aos-duration="600">
         <template #image>
           <ImgPortfolio1 />
@@ -143,7 +142,6 @@ import ImgSuzuki from "./icons/ImgSuzuki.vue";
               class="picto-external-link"
               alt="picto-external-link"
           /></a>
-          <!-- <span @click="toggleTexte">&nbsp;↴</span> -->
         </template>
         <p>
           Ce fut mon tout premier projet en <b>Vue.js</b>. Mon maître de stage
@@ -169,9 +167,7 @@ import ImgSuzuki from "./icons/ImgSuzuki.vue";
 <style scoped>
 #reals {
   padding-top: 3rem;
-  /* padding-bottom: 3rem; */
   min-height: 100vh;
-  /* background-color: #116071; */
   background: linear-gradient(to top, #1c657c, #1c4856 50%, #1c4856 50%);
   display: flex;
   justify-content: center;
@@ -190,10 +186,6 @@ template {
   margin: 0;
   padding: 0;
 }
-/* .grid-projects {
-  display: grid;
-  grid-template-columns: 1fr;
-} */
 .flex-project {
   display: flex;
   flex-direction: column;
@@ -207,19 +199,8 @@ template {
   z-index: 1;
   color: #fff;
 }
-/* .title-linear-background {
-  background: linear-gradient(
-    to bottom,
-
-    #ffffff 55%,
-    rgba(255, 255, 255, 0) 80%
-  );
-  background-clip: text;
-  color: transparent;
-} */
 h2 {
   font-family: "Montserrat", sans-serif;
-  /* font-size: 1.2rem; */
   font-weight: 600;
   padding: 0.3rem 3rem;
   color: white;
@@ -239,13 +220,9 @@ p {
 }
 .link-text {
   font-weight: 700;
-  /* font-size: 1rem; */
   box-shadow: inset 0 0 0 0 #e05900;
   padding: 0 0.15rem;
-  /* margin: 0 -0.25rem; */
   transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-  /* position: relative; */
-  /* display: inline; */
 }
 .link-text:hover {
   color: #fff;
@@ -264,9 +241,6 @@ p {
   }
 }
 @media (min-width: 768px) {
-  .titre {
-    /* margin: 3rem 6rem 2rem 6rem; */
-  }
   #reals:target {
     padding-top: 8.5rem;
     margin-top: -5.5rem;
@@ -274,7 +248,6 @@ p {
 }
 @media (min-width: 1135px) {
   #reals {
-    /* padding: 3rem 2rem; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -285,11 +258,6 @@ p {
     padding-top: 6.8rem;
     margin-top: -3.7rem;
   }
-  /* .grid-projects {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    padding: 0 3rem;
-  } */
   .flex-project {
     display: flex;
     flex-direction: row;
@@ -306,7 +274,6 @@ p {
 }
 @media (min-width: 1440px) {
   .flex-project {
-    /* justify-content: space-around; */
     padding: 0 1rem 2rem 1rem;
     margin: 0.5rem 0rem 0rem 0rem;
     width: 100%;

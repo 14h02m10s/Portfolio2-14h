@@ -20,12 +20,6 @@ onBeforeUnmount(() => {
   <div class="englobeur-first">
     <!-- <div data-scroll-section class="text-photo"> -->
     <div class="text-photo" :style="{ transform: `translateY(-${scroll}px)` }">
-      <!-- <div
-        class="text"
-        data-scroll
-        data-scroll-repeat="true"
-        data-scroll-speed="2"
-      >       -->
       <div class="text">
         <Transition appear name="slide-fade1">
           <div class="bienvenue">BIENVENUE</div>
@@ -57,20 +51,12 @@ onBeforeUnmount(() => {
 </template>
 <style scoped>
 .englobeur-first {
-  /* background-color: #116071; */
   background: linear-gradient(to top, #1c657c, #1c4856 50%, #1c4856 50%);
   min-height: 100vh;
-  /* height: 50rem; */
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  /* margin-top: 3rem; */
-  /* background-image: url(../assets/fonds/rain-coming-down-window-1.jpg); */
-  /* background-image: url(../assets/fonds/abstract-yellow-light-through-wet-glass.jpg);
-  background-color: rgba(17, 96, 113, 0.5);
-  background-size: cover;
-  background-position: bottom 0px right 0px; */
 }
 .text-photo {
   gap: 3rem;
@@ -80,12 +66,7 @@ onBeforeUnmount(() => {
   flex-direction: column;
   width: 100%;
 }
-/* .container-photo {
-  height: 14rem;
-  width: 14rem;
-} */
 .photo2 {
-  /* border: #e05900 4px solid; */
   border: #e05900 4px solid;
   height: 14rem;
   width: 14rem;
@@ -102,8 +83,6 @@ onBeforeUnmount(() => {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  /* width: 100%; */
-  /* justify-content: space-around; */
   gap: 0.8rem;
   border-bottom: #e05900 4px solid;
   padding-top: 1.2rem;
@@ -113,10 +92,7 @@ onBeforeUnmount(() => {
   color: #ffffff;
   font-weight: 600;
   font-size: 2.55rem;
-  /* text-align: center; */
   line-height: 1rem;
-  /* padding: 0.6rem 2rem 0.6rem 3rem; */
-  /* transform: translateX(-1rem); */
 }
 .portfolio {
   color: #ffffff;
@@ -136,10 +112,6 @@ onBeforeUnmount(() => {
   transform: translateX(-10rem);
   opacity: 0;
 }
-/* .slide-fade1-enter-to,
-.slide-fade2-enter-to {
-  transform: translateX(-1rem);
-} */
 button,
 button::after {
   -webkit-transition: all 0.3s;
@@ -152,21 +124,17 @@ button {
   border-radius: 2rem;
   cursor: pointer;
   font-size: 1.1rem;
-  /* border: 2px #219db2 solid; */
   border: 2px #ffffff solid;
   background: none;
   font-weight: 600;
   position: relative;
-  /* color: #219db2; */
   color: white;
   overflow: hidden;
   z-index: 1;
 }
 button::before,
 button::after {
-  /* border: #fff 2px solid; */
   border-radius: 2rem;
-  /* background-color: #219db2; */
   background-color: #397a89;
   content: "";
   position: absolute;
@@ -175,9 +143,6 @@ button::after {
 button:hover {
   color: #fff;
 }
-/* button:hover a {
-  color: #fff;
-} */
 .btn-rond::before {
   height: 100%;
   left: 0;
@@ -192,15 +157,11 @@ button:hover {
 }
 .btn-rond:hover::after {
   width: 100%;
-  /* border: rgba(17, 96, 113, 1) 2px solid; */
-  /* border: #e05900 2px solid; */
 }
 .btn-continue {
   display: flex;
-  /* justify-content: right; */
   align-items: center;
   position: absolute;
-  /* bottom: 1rem; */
   bottom: 2rem;
 }
 .btn-rond {
@@ -208,8 +169,6 @@ button:hover {
   height: 3.2rem;
   display: flex;
   justify-content: center;
-  /* align-items: flex-start; */
-  /* background-color: #d35400; */
   background-color: #e05900;
 }
 @media (min-width: 768px) {
@@ -225,7 +184,6 @@ button:hover {
     border-radius: 10rem;
   }
   .text {
-    /* gap: 0.8rem; */
     border-bottom: #e05900 4px solid;
     padding-top: 1.7rem;
     border-top: #e05900 4px solid;
@@ -244,7 +202,6 @@ button:hover {
   .text-photo {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    /* grid-auto-rows: minmax(100px, auto); */
     width: 100%;
     gap: 0;
     padding: 0 4rem;
@@ -276,7 +233,6 @@ button:hover {
   }
   .bienvenue {
     font-size: 5rem;
-    /* border-top: #e05900 6px solid; */
     padding-top: 1.3rem;
     display: flex;
     justify-content: center;
@@ -285,7 +241,6 @@ button:hover {
   .portfolio {
     padding-top: 1rem;
     font-size: 3.45rem;
-    /* border-bottom: #e05900 6px solid; */
     display: flex;
     justify-content: center;
     align-items: center;

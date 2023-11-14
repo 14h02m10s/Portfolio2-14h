@@ -65,8 +65,6 @@ export default {
   z-index: 10;
 }
 .orange {
-  /* background-color: #219db2; */
-  /* background-color: #d35400; */
   background-color: #e05900;
   display: flex;
   flex-direction: row;
@@ -100,8 +98,6 @@ nav a {
 }
 nav a p:hover {
   transform: scale(1.03);
-  /* text-decoration: underline 2px; */
-  /* text-underline-offset: 0.3rem; */
 }
 h1:hover {
   transform: scale(1.03);
@@ -125,55 +121,15 @@ h1 {
   transform: scale(1.08);
 }
 .blue {
-  /* background-color: #5bb6c6; */
-  /* background-color: #397a89; */
   background-color: #1c657c;
+  /* background-color: #1c4856; */
   padding: 1.5rem;
   box-shadow: rgba(0, 0, 0, 0.3) 0.5rem 0.5rem 2rem;
 }
 .responsive a {
-  /* float: none; */
   display: none;
 }
 @media (min-width: 471px) {
-  /* .container1 {
-    box-shadow: 0px 5px 10px rgba(37, 37, 37, 0.3);
-    height: 6.056rem;
-  }
-  nav {
-    padding: 0.5rem;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-  }
-  nav a {
-    padding: 0 0.7rem;
-    border-left: 1px solid rgba(255, 255, 255, 0.3);
-  }
-  .picto img {
-    height: 1.2rem;
-    margin-top: 0.3rem;
-  }
-  .menu-points {
-    display: none;
-  }
-  .blue,
-  .responsive {
-    background-color: #1c657c;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 0.5rem;
-  }
-  .responsive a {
-    display: block;
-    font-size: 1rem;
-  }
-  .picto {
-    display: flex;
-    flex-direction: row;
-  } */
   h1 {
     font-size: 1.3rem;
   }
@@ -207,13 +163,11 @@ h1 {
     box-shadow: rgba(0, 0, 0, 0.3) 0.5rem 0.5rem 2rem;
   }
   nav {
-    /* font-size: 1.3rem; */
     padding: 1rem 0;
   }
   h1 {
     font-weight: 700;
     text-align: left;
-    /* padding: 0.5rem; */
   }
   .orange {
     display: flex;

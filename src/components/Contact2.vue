@@ -160,10 +160,8 @@ import Footer from "./Footer.vue";
   flex-direction: column;
   justify-content: center;
   background: linear-gradient(to bottom, #1c657c, #1c4856 50%, #1c4856 50%);
-  /* background: linear-gradient(to bottom, #43be1e, #4a1c56 50%, #561c4c 50%); */
   width: 100%;
   position: relative;
-  /* padding-top: 3rem; */
   padding-top: 5.1rem;
   padding-bottom: 4.1rem;
   height: 100vh;
@@ -182,27 +180,10 @@ import Footer from "./Footer.vue";
   background-size: cover;
 }
 .titre {
-  /* background-color: #397a89;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 0.7rem;
-  margin-bottom: 2rem;
-  position: relative;
-  margin: 0 3rem; */
   width: 100%;
   z-index: 1;
   color: #fff;
 }
-/* .title-linear-background {
-  background: linear-gradient(
-    to bottom,
-    #ffffff 55%,
-    rgba(255, 255, 255, 0) 80%
-  );
-  background-clip: text;
-  color: transparent;
-} */
 h2 {
   font-family: "Montserrat", sans-serif;
   font-size: 1.2rem;
@@ -228,11 +209,6 @@ h2 {
   align-items: center;
   position: relative;
   padding: 2rem 1.5rem 0rem 1.5rem;
-  /* background-color: rgba(255, 255, 255, 0.5); */
-  /* margin-top: 1rem; */
-  /* margin: 1rem 1rem 0rem 1rem; */
-  /* border-top: 5px solid #e05900;
-  border-bottom: 5px solid #e05900; */
   z-index: 4;
   width: 100%;
 }
@@ -243,7 +219,6 @@ h2 {
   align-items: center;
   gap: 1.5rem;
   width: 100%;
-  /* margin-top: 3rem; */
 }
 .login-card-form-2 {
   display: flex;
@@ -304,60 +279,7 @@ textarea {
   font-family: "Open sans";
   font-size: 0.9rem;
 }
-/* button,
-button::after {
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  -o-transition: all 0.3s;
-  transition: all 0.3s;
-  z-index: 4;
-}
-button {
-  padding: 0.7rem 1.1rem;
-  border-radius: 2rem;
-  cursor: pointer;
-  font-size: 1.1rem;
-  border: 2px #397a89 solid;
-  background: none;
-  font-weight: 600;
-  font-family: "Montserrat", sans-serif;
-  position: relative;
-  color: #397a89;
-  overflow: hidden;
-}
-button::before,
-button::after {
-  border: #fff 2px solid;
-  border-radius: 2rem;
-  background-color: #116071;
-  content: "";
-  position: absolute;
-  z-index: -1;
-}
-button:hover {
-  color: #fff;
-}
-button:hover a {
-  color: #fff;
-}
-.btn-carre::before,
-.btn::before {
-  height: 100%;
-  left: 0;
-  top: 0;
-  width: 0;
-}
-.btn-carre::after,
-.btn::after {
-  height: 100%;
-  left: 0;
-  top: 0;
-  width: 0;
-}
-.btn-carre:hover::after,
-.btn:hover::after {
-  width: 100%;
-} */
+
 button,
 button::after {
   -webkit-transition: all 0.3s;
@@ -371,7 +293,6 @@ button {
   border-radius: 2rem;
   cursor: pointer;
   font-size: 1.1rem;
-  /* border: 2px #219db2 solid; */
   border: 2px #fff solid;
   background: none;
   font-weight: 600;
@@ -383,21 +304,12 @@ button {
 }
 button::before,
 button::after {
-  /* border: #fff 2px solid; */
   border-radius: 2rem;
-  /* background-color: #219db2; */
   background-color: #e05900;
   content: "";
   position: absolute;
   z-index: -1;
-  /* border: 4px #ffffff solid; */
 }
-/* button a {
-  color: #fff;
-}
-button:hover a {
-  color: #fff;
-} */
 .btn-carre::before,
 .btn::before {
   height: 100%;
@@ -415,7 +327,6 @@ button:hover a {
 .btn-carre:hover::after,
 .btn:hover::after {
   width: 100%;
-  /* border: #e05900 2px solid; */
 }
 p {
   /* font-size: 0.9rem; */
@@ -426,8 +337,6 @@ p {
 }
 ul {
   color: #fff;
-  /* padding-left: 0rem; */
-  /* font-size: 0.9rem; */
 }
 .copy {
   font-size: 0.9rem;
@@ -437,7 +346,6 @@ ul {
 }
 @keyframes changerCouleur {
   0% {
-    /* color: rgba(57, 122, 137, 1); */
     color: rgba(255, 255, 255, 1);
   }
   100% {
@@ -449,27 +357,18 @@ ul {
   font-weight: 600;
   color: rgba(255, 255, 255, 0);
 }
-/* .englobeur-btn-haut {
-  display: flex;
-  justify-content: end;
-  align-items: end;
-  width: 100%;
-} */
 .container-btn-envoyer {
   display: flex;
   justify-content: center;
   padding-top: 2rem;
-  /* padding-bottom: 6rem; */
 }
 .btn-return {
   display: flex;
   justify-content: right;
-  /* align-items: center; */
   width: 100%;
   position: absolute;
   bottom: 5.5rem;
   right: 1.5rem;
-  /* padding-top: 2rem; */
 }
 .btn-carre {
   width: 3.2rem;
@@ -518,16 +417,11 @@ ul {
 }
 @media (min-width: 768px) {
   #contact {
-    /* max-height: 1250px; */
-    /* justify-content: center; */
     padding-top: 7.5rem;
   }
   /* #contact:target {
     padding-top: 9.056rem;
     margin-top: 0rem;
-  } */
-  /* .login-card-form {
-    max-width: 44rem;
   } */
   .login-card-container {
     max-width: 44rem;
@@ -537,14 +431,10 @@ ul {
     display: flex;
     flex-direction: row;
   }
-  ul {
-    /* padding-left: 2.5rem; */
-  }
 }
 @media (min-width: 1135px) {
   #contact {
     height: 100vh;
-    /* justify-content: center; */
     padding-top: 6.7rem;
   }
   /* #contact:target {
