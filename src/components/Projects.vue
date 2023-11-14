@@ -34,7 +34,7 @@ import ImgSuzuki from "./icons/ImgSuzuki.vue";
           Je n'ai pas eu le temps de le diffuser car dès sa finalisation, j'ai
           sollicité des avis auprès de mon entourage. Certains ont souligné que
           mon site était un peu trop "statique" et avait des airs un peu trop
-          "print" (une déformation professionnelle, je suppose ! :p).
+          "print" (une déformation professionnelle, je suppose 🙃).
           <br /><br /><b
             >C'était mon premier projet responsive, conçu en adoptant une
             approche "mobile first".</b
@@ -66,15 +66,14 @@ import ImgSuzuki from "./icons/ImgSuzuki.vue";
               alt="picto-external-link" /></a
         ></template>
         <p>
-          Ceci est le projet <b>Vue.js</b> le plus abouti que j'ai réalisé (en
-          dehors de ce portfolio + sa 1ère version). J'ai commencé ce projet à
-          la fin de mon stage, en juin 2023, et l'ai donc continué chez moi.
-          L'objectif principal était de reproduire un site vitrine déjà
-          existant. Mon choix s'est porté sur
+          J'ai commencé ce projet <b>Vue.js</b> à la fin de mon stage, en juin
+          2023 et l'ai continué chez moi. L'objectif principal était de
+          reproduire un site vitrine déjà existant. Mon choix s'est porté sur
           <a href="https://lakson.fr/" target="_blank" class="link-text"
             >le site du restaurant Lakson,</a
           >
-          car il comprenait
+          (temporairement hors ligne 😐 vous ne pourrez pas comparer avec ce que
+          j'ai fait) car il comprend
           <b
             >une barre de navigation, un pied de page, plusieurs pages, des
             boutons, et une galerie de photos</b
